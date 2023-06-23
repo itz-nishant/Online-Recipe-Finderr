@@ -1,0 +1,32 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://example.com/background-image.jpg');
+  background-size: cover;
+  opacity: 0.6; /* Adjust the opacity as per your preference */
+  z-index: -1;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+}
